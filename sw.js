@@ -24,9 +24,11 @@ var precacheUrls = [];
 
   precacheUrls.push('/');
 
-  precacheUrls.push('/posts/6.html');
+  precacheUrls.push('//article/本博客搭建详细教程.html');
 
-  precacheUrls.push('/posts/undefined.html');
+  precacheUrls.push('//article/美团暑期实习二面（前端）.html');
+
+  precacheUrls.push('//article/美团暑期实习一面面经（前端）.html');
 
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":30};
